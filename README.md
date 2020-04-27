@@ -1,46 +1,46 @@
-# Mens Style 2k18
+# Premium Cigars
 
-*Third, responsive, website created using Bootstrap made in my first year of studying.*
+*Sixth, responsive, website created using PHP and JavaScript and jQuery made in my second year of studying.*
 
 
 ## Website Desing
 
+### *Login page*
+![Login Image](git-image/image1.png)
+
+Login implementations with PHP.
+
+### *Register page*
+![Register Image](git-image/image2.png)
+
+Register implementations with PHP.
+
 ### *Home page*
-![Home Image](git-image/image1.png)
+![Home Image](git-image/image3.png)
 
-Bootstrap design with my change using HTML and CSS.
-
-### *Accessories page*
-![Accessories Image](git-image/image2.png)
-
-Bootstrap design with my change using HTML and CSS.
-
-### *Beard and Hair page*
-![Beard and Hair Image](git-image/image3.png)
-
-Bootstrap design with my change using HTML and CSS.
-
-### *Clothes page*
-![Clothes Image](git-image/image4.png)
-
-Bootstrap design with my change using HTML and CSS.
+Just some nice looking cigars, with a cigar gif.
 
 ### *Author page*
-![Author Image](git-image/image5.png)
+![Author Image](git-image/image4.png)
 
-Bootstrap design with my change using HTML and CSS.
+Hovering over author name will result in an area about author showing up.
 
-### *404 page*
-![404 Image](git-image/image6.png)
+### *Facts page*
+![Facts Image](git-image/image5.png)
 
-Bootstrap design with my change using HTML and CSS.
+Facts about cigars with voting implemented.
 
-### *Author page*
-![Author Image](git-image/image7.png)
+### *Cigars page*
+![Cigars Image](git-image/image6.png)
 
-Bootstrap design with my change using HTML and CSS.
+Page with a lot of cigars, dinamic from SQL database. Implemented paging.
 
-### *404 page*
-![404 Image](git-image/image8.png)
+### *Admin panel page*
+![Admin panel Image](git-image/image7.png)
 
-Bootstrap design with my change using HTML and CSS.
+Admin panel with some examples of adding, deleting and edditing data.
+
+### *Contact page*
+![Contact Image](git-image/image8.png)
+
+Contact form, working with PHPMailer.
