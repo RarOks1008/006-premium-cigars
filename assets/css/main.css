@@ -1,0 +1,31 @@
+.cigar_smoke {
+    margin: 10px 0;
+}
+.cigar_smoke img {
+    width: 60%;
+    margin-left: 20%;
+    border: 5px solid #000000;
+}
+.title_holder {
+    padding: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: #5e3a26;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.cigar_smoke_skotch {
+    height: 100vh;
+    background-image: url(../images/cigar_smoke_skotch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.combination {
+    height: 100vh;
+    background-image: url(../images/combination.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

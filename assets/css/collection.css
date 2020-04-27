@@ -1,0 +1,55 @@
+#cigar_collection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #5e3a26;
+}
+.cigar_holder {
+    padding: 20px;
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+.cigar_holder h2 {
+    text-align: center;
+    margin-bottom: 7px;
+}
+.cigar_holder img {
+    margin-left: 10%;
+    width: 80%;
+}
+.cigar_holder p {
+    font-style: italic;
+    margin-top: 5px;
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #5e3a26;
+    padding: 4px;
+}
+#cigar_pagination {
+    margin-top: 15px;
+    margin-left: 8%;
+}
+#cigar_pagination span {
+    margin-left: 2%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #5e3a26;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+#cigar_pagination span:hover {
+    background-color: rgba(214,170,135, 0.5);
+}
+#cigar_pagination span.active {
+    border: 2px solid #effd5f;
+}
+@media screen and (max-width: 640px) {
+    .cigar_holder {
+        width: 95%;
+    }
+}

@@ -1,0 +1,133 @@
+@font-face {
+  font-family: robotoSlab;
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'robotoSlab';
+}
+body {
+    background-image: url('../images/cigar_wall_cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.copyright {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(214,170,135);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px;
+}
+#navigation {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navigation img {
+    width: 100px;
+    height: 38px !important;
+    height: inherit;
+}
+#navigation ul {
+    list-style-type: none;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+}
+#navigation ul li a:hover {
+    background-color: rgba(214,170,135, 0.5);
+}
+#navigation ul li a {
+    text-decoration: none;
+    color: #5e3a26;
+    padding: 5px;
+    border-radius: 3px;
+}
+#navigation input {
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #5e3a26;
+    font-size: 24px;
+    cursor: pointer;
+}
+.footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#social_networks {
+    width: 60%;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+#social_networks a {
+    padding: 2px;
+    border-radius: 1px;
+    font-size: 32px;
+    color: #5e3a26;
+    background-color: transparent;
+}
+#social_networks a:hover {
+    background-color: rgba(214,170,135, 0.7);
+}
+#author_data {
+    color: #5e3a26;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+#author_data img {
+    width: 200px;
+    margin: 0px auto;
+}
+#author_data.show_author {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 700px) {
+    #navigation img {
+        margin-bottom: 5px;
+    }
+    #navigation input {
+        margin-top: 5px;
+    }
+    #navigation {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 590px) {
+    #navigation ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    #navigation ul li {
+        margin-top: 5px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    #social_networks {
+        width: 100%;
+    }
+}

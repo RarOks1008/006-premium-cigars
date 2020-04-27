@@ -1,0 +1,4 @@
+ErrorDocument 404 http://premium-cigars.000webhostapp.com/
+
+ErrorDocument 403 http://premium-cigars.000webhostapp.com/
+Options All -Indexes

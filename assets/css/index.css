@@ -1,0 +1,114 @@
+.content_holder {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 20px;
+}
+.content_holder .logo {
+    height: 150px;
+    margin: 0px auto;
+    background-image: url('../images/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.content_holder .logo h1 {
+    position: absolute;
+    top: -9999px;
+}
+.content_holder ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content_holder ul li {
+    font-size: 24px;
+    font-weight: bold;
+}
+.content_holder ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: #5e3a26;
+    border-radius: 3px;
+}
+.content_holder ul li a:hover {
+    background-color: rgba(214,170,135, 0.5);
+}
+.content_holder ul li:first-child {
+    padding-right: 10px;
+    border-right: 1px dashed #5e3a26;
+}
+.content_holder ul li:last-child {
+    padding-left: 10px;
+}
+ul li a.active {
+    border-bottom: 2px solid #effd5f;
+    border-radius: 1px;
+}
+#form_place {
+    margin-top: 20px;
+}
+#form_place form input {
+    padding: 3px;
+    color: #5e3a26;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 2px;
+}
+#form_place form input[type="date"] {
+    min-width: 170px;
+}
+#form_place form input[type="button"] {
+    background-color: #ffffff;
+    width: 20%;
+    min-width: 50px;
+    margin-left: 40%;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 2px;
+}
+#form_place form input[type="button"]#register_button {
+    min-width: 90px;
+}
+#form_place form p {
+    font-size: 16px;
+    min-height: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: #5e3a26;
+    text-align: center;
+}
+#form_place form label {
+    margin-left: 25%;
+    color: #5e3a26;
+}
+@media screen and (max-width: 330px) {
+    #form_place form input {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+.notice_div {
+    width: 60%;
+    left: 20%;
+    top: 200px;
+    padding: 20px;
+    position: absolute;
+    background-color: rgba(123, 123, 123, 0.8);
+    color: #ffffff;
+    border-radius: 5px;
+}
+.notice_div h2 {
+    text-align: center;
+}
+.notice_div p {
+    text-align: center;
+}

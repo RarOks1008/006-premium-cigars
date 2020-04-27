@@ -1,0 +1,73 @@
+.admin_data h2 {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #5e3a26;
+    font-size: 30px;
+    padding: 5px;
+}
+.admin_data select {
+    background-color: #ffffff;
+    color: #5e3a26;
+    border: none;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 25%;
+}
+.admin_data #admin_add_holder, .admin_data #admin_delete_holder, .admin_data #admin_edit_holder {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #5e3a26;
+    padding: 10px;
+    align-items: center;
+}
+#admin_add_holder form, #admin_edit_holder form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#admin_add_holder label, #admin_delete_holder label, #admin_edit_holder label {
+    font-size: 16px;
+}
+#admin_add_holder input, #admin_delete_holder input, #admin_edit_holder input {
+    font-size: 16px;
+    margin-top: 5px;
+    border: none;
+    background-color: #ffffff;
+    padding: 3px;
+    color: #5e3a26;
+}
+#admin_add_holder select, #admin_delete_holder select, #admin_edit_holder select {
+    margin-left: 0;
+}
+#admin_add_holder p, #admin_delete_holder p, #admin_edit_holder p {
+    font-size: 16px;
+    min-height: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #ff0000;
+    text-shadow: 1px 1px #000000;
+}
+#admin_edit_holder_selector {
+    margin-top: 10px;
+}
+#admin_edit_holder_selector h3 {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3px;
+    color: #5e3a26;
+    text-align: center;
+}
+@media screen and (max-width: 500px) {
+    #admin_add_holder input, #admin_delete_holder input, #admin_edit_holder input {
+        width: 95%;
+    }
+    #admin_add_holder select, #admin_delete_holder select, #admin_edit_holder select {
+        width: 95%;
+    }
+}

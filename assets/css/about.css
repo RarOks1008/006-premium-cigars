@@ -1,0 +1,56 @@
+.content {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #5e3a26;
+    padding: 20px;
+}
+.content h1 {
+    margin-bottom: 10px;
+}
+#facts {
+    text-align: left;
+}
+#facts h2 {
+    margin-top: 10px;
+}
+#facts h2:first-child {
+    margin-top: 30px;
+}
+#voting, .voting_result {
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #5e3a26;
+    padding: 20px;
+    margin-top: 10px;
+}
+#voting input, #voting select, .voting_result input {
+    color: #5e3a26;
+    background-color: #ffffff;
+    border: none;
+    padding: 3px;
+}
+#voting .voting_flex {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+#voting .voting_flex #form_error {
+    color: #ff0000;
+    min-height: 16px;
+    text-shadow: 1px 1px #000000;
+}
+#voting h3 {
+    text-align: center;
+    font-size: 30px;
+}
+@media screen and (max-width: 640px) {
+    #voting .voting_flex {
+        flex-direction: column;
+    }
+}
